@@ -1,2 +1,6 @@
+1.0.2 Aug 10, 2016
+  - Add ProductSummary enpoints
+1.0.1 July 10, 2016
+  - Add CustomerHold, ReverseCharge, Customer list
 1.0.0 June 10, 2016
   - Initial release with customers and tokens APIs
