@@ -84,6 +84,7 @@ fusebill.balance.retrieve({
  * draftInvoices
  * invoices
   * [`retrieve(invoiceId)`](http://help.fusebill.com/api-read-posted-invoice)
+  * [`retrievePdf(invoiceId)`](http://help.fusebill.com/api-get-posted-invoice-as-pdf)
  * paymentMethods
  * plans
   * [`list([params])`](http://help.fusebill.com/api-get-plans)
