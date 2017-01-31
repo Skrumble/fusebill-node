@@ -1,3 +1,19 @@
+1.0.9 Jan 5, 2017
+  - Add retrieve invoice PDF
+1.0.8 Oct 6, 2016
+  - Add subscriptionProducts retrieve and update
+1.0.7 Sept 22, 2016
+  - Add preview option to subscription update
+  - Fix callback to not retry for non 5XX errors
+1.0.6 Sept 19, 2016
+  - Add a retry to all 5XX server errors
+1.0.4 Sept 14, 2016
+  - Allow purchase preview
+  - Add endpoint for list customer purchases
+1.0.3 Aug 10, 2016
+  - Handle success response with "null" body
+  - Add payments PR#2 from mdabydeen
+	- Add customer listCreditCards PR#3 from mdabydeen
 1.0.2 Aug 10, 2016
   - Add ProductSummary enpoints
 1.0.1 July 10, 2016
