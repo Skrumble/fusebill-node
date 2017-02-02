@@ -16,6 +16,18 @@ describe('Invoices Resource', function() {
     });
   });
 
+  describe('retrievePdf', function() {
+    it('Sends the correct request', function() {
+      fusebill.invoices.retrieve('invoiceId1');
+      expect(fuesbill.LAST_REQUEST).to.deep.equal({
+        method: 'GET',
+        url: '/v1/invoices/pdf/invoiceId1',
+        headers: {},
+        data: {},
+      });
+    });
+  });
+
   describe('create', function() {
     it('Sends the correct request', function() {
       fusebill.invoices.create({application_fee: 111});
